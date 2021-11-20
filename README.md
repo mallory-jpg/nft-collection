@@ -9,6 +9,17 @@ Built with @buildspace 🦄
 * **SVG**: image built with code
 * **base64**: encoding format 
 
+## Overview
+* NFT metadata format:
+  ```
+  {
+    "name":"Yeet Love",
+    "description":"Some boomers are alright.",
+    "image":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAzNTAgMzUwIj4KICAgIDxzdHlsZT4uYmFzZSB7IGZpbGw6IHdoaXRlOyBmb250LWZhbWlseTogc2VyaWY7IGZvbnQtc2l6ZTogMTRweDsgfTwvc3R5bGU+CiAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJibGFjayIgLz4KICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBjbGFzcz0iYmFzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+RXBpY0xvcmRIYW1idXJnZXI8L3RleHQ+Cjwvc3ZnPg=="
+  }
+  ```
+* 
+
 ## Setup 🛠️
 1. Startup a sample HardHat project: `npx hardhat` 
 2. Install project dependencies: `npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers`
@@ -18,7 +29,7 @@ Built with @buildspace 🦄
 <img width="408" alt="Screen Shot 2021-11-20 at 1 13 21 PM" src="https://user-images.githubusercontent.com/65197541/142738337-d1d5b93a-cd19-40e1-a72f-db82e2b975e6.png">
 ### Tools
 * [Alchemy.io](https://dashboard.alchemyapi.io/)
-* [JSON Keeper](https://jsonkeeper.com/)
+* [JSON Keeper](https://jsonkeeper.com/) ➡️ the metadata's `image` URL has this format: `data:image/svg+xml;base64,<base64_encoded_SVG>`
 
 ### Bugs & Oddities 🐛
 If using VSCode: 
