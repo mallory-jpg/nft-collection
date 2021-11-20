@@ -10,6 +10,10 @@ Built with @buildspace 🦄
 
 <img width="408" alt="Screen Shot 2021-11-20 at 1 13 21 PM" src="https://user-images.githubusercontent.com/65197541/142738337-d1d5b93a-cd19-40e1-a72f-db82e2b975e6.png">
 
+### Bugs & Oddities
+If using VSCode: 
+* make sure ethers are not auto-imported into solidity contract
+* imports might be unresolved if the compiler isn't globally installed on your system
 
 ### HardHat
 
