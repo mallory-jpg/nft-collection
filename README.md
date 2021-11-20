@@ -2,6 +2,10 @@
 
 Built with @buildspace 🦄
 
+## A vocabulary refresher
+* **Transaction**: an action that changes the blockchain, like deploying a smart contract or minting an NFT
+* 
+
 ## Setup
 1. Startup a sample HardHat project: `npx hardhat` 
 2. Install project dependencies: `npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers`
@@ -9,6 +13,9 @@ Built with @buildspace 🦄
 4. Test setup by deploying to local blockchain: `npx hardhat run scripts/sample-script.js` results in 👇
 
 <img width="408" alt="Screen Shot 2021-11-20 at 1 13 21 PM" src="https://user-images.githubusercontent.com/65197541/142738337-d1d5b93a-cd19-40e1-a72f-db82e2b975e6.png">
+### Tools
+* [Alchemy.io](https://dashboard.alchemyapi.io/)
+* [JSON Keeper](https://jsonkeeper.com/)
 
 ### Bugs & Oddities
 If using VSCode: 
@@ -30,3 +37,13 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+## Testing
+1. Deploy contract to Rinkeby Testnet to validate: `npx hardhat run scripts/deploy.js --network rinkeby`
+2. Check contract address on [Etherscan](https://rinkeby.etherscan.io/) 
+
+
+### Tools
+* Rinkeby testnet
+* Metamask wallet
+
+# How to Use
