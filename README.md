@@ -4,9 +4,12 @@ Built with @buildspace 🦄
 
 ## A vocabulary refresher
 * **Transaction**: an action that changes the blockchain, like deploying a smart contract or minting an NFT
+* **Deployment**:
+* **On-Chain Data**: data stored on the contract itself, rather than via a third party
+* **SVG**: image built with code
 * 
 
-## Setup
+## Setup 🛠️
 1. Startup a sample HardHat project: `npx hardhat` 
 2. Install project dependencies: `npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers`
 3. Install OpenZeppelin library: `npm install @openzeppelin/contracts`
@@ -17,16 +20,16 @@ Built with @buildspace 🦄
 * [Alchemy.io](https://dashboard.alchemyapi.io/)
 * [JSON Keeper](https://jsonkeeper.com/)
 
-### Bugs & Oddities
+### Bugs & Oddities 🐛
 If using VSCode: 
 * make sure ethers are not auto-imported into solidity contract
 * imports might be unresolved if the compiler isn't globally installed on your system
 
-### HardHat
+### HardHat 🎩
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+"This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-Try running some of the following tasks:
+Try running some of the following tasks:"
 
 ```shell
 npx hardhat accounts
@@ -37,9 +40,11 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
 ## Testing
-1. Deploy contract to Rinkeby Testnet to validate: `npx hardhat run scripts/deploy.js --network rinkeby`
+1. Deploy contract (using command line) to Rinkeby Testnet to validate: `npx hardhat run scripts/deploy.js --network rinkeby`
 2. Check contract address on [Etherscan](https://rinkeby.etherscan.io/) 
+3. Search [OpenSea's TestNet](https://testnets.opensea.io/) site using the contract address 
 
 
 ### Tools
@@ -47,3 +52,4 @@ npx hardhat help
 * Metamask wallet
 
 # How to Use
+
