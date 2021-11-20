@@ -1,4 +1,4 @@
-# NFT Collection Displayed on Web3 App
+# NFT Collection Web3 App
 
 Built with @buildspace 🦄
 
