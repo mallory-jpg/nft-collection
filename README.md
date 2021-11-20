@@ -1,4 +1,6 @@
-# Web3 App to Display NFT Collection
+# NFT Collection Displayed on Web3 App
+
+Built with @buildspace 🦄
 
 ## Setup
 1. Startup a sample HardHat project: `npx hardhat` 
