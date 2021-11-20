@@ -7,7 +7,7 @@ Built with @buildspace 🦄
 * **Deployment**:
 * **On-Chain Data**: data stored on the contract itself, rather than via a third party
 * **SVG**: image built with code
-* 
+* **base64**: encoding format 
 
 ## Setup 🛠️
 1. Startup a sample HardHat project: `npx hardhat` 
