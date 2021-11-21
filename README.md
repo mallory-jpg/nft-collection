@@ -1,6 +1,7 @@
 # NFT Collection Web3 App
 
 Built with @buildspace 🦄
+
 #Verified: https://rinkeby.etherscan.io/address/0x0B39f1408e5948754f02611f80E988B403288d05#code
 
 ## A vocabulary refresher
