@@ -2,13 +2,7 @@
 
 Built with @buildspace 🦄
 
-## A vocabulary refresher
-* **Transaction**: an action that changes the blockchain, like deploying a smart contract or minting an NFT
-* **Deployment**:
-* **On-Chain Data**: data stored on the contract itself, rather than via a third party
-* **SVG**: image built with code
-* **base64**: encoding format 
-* **Event**: in Solidity, messages that are emitted by smart contracts & captured in real-time by our client
+#Verified: https://rinkeby.etherscan.io/address/0x0B39f1408e5948754f02611f80E988B403288d05#code
 
 ## Overview
 * NFT metadata format:
@@ -19,7 +13,20 @@ Built with @buildspace 🦄
     "image":"data:image/json;base64,<base64_encoded_SVG_address>"
   }
   ```
-* 
+  
+### How to Use
+1. Go to the [game site](https://nft-collector.malloryculbert.repl.co/)
+2. Connect your ETH wallet
+3. Mint your NFT!
+
+### A vocabulary refresher
+* **Transaction**: an action that changes the blockchain, like deploying a smart contract or minting an NFT
+* **Deployment**:
+* **On-Chain Data**: data stored on the contract itself, rather than via a third party
+* **SVG**: image built with code
+* **base64**: encoding format 
+* **Event**: in Solidity, messages that are emitted by smart contracts & captured in real-time by our client
+
 
 ## Setup 🛠️
 1. Startup a sample HardHat project: `npx hardhat` 
@@ -28,6 +35,7 @@ Built with @buildspace 🦄
 4. Test setup by deploying to local blockchain: `npx hardhat run scripts/sample-script.js` results in 👇
 
 <img width="408" alt="Screen Shot 2021-11-20 at 1 13 21 PM" src="https://user-images.githubusercontent.com/65197541/142738337-d1d5b93a-cd19-40e1-a72f-db82e2b975e6.png">
+
 ### Tools
 * [Alchemy.io](https://dashboard.alchemyapi.io/)
 * [JSON Keeper](https://jsonkeeper.com/) ➡️ the metadata's `image` URL has this format: `data:image/svg+xml;base64,<base64_encoded_SVG>`
@@ -63,8 +71,5 @@ npx hardhat help
 * Rinkeby testnet
 * Metamask wallet
 
-# How to Use
-1. Go to the [game site](https://nft-collector.malloryculbert.repl.co/)
-2. Connect your ETH wallet
-3. Mint your NFT!
+
 
