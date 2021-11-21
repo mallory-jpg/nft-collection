@@ -8,6 +8,7 @@ Built with @buildspace 🦄
 * **On-Chain Data**: data stored on the contract itself, rather than via a third party
 * **SVG**: image built with code
 * **base64**: encoding format 
+* **Event**: in Solidity, messages that are emitted by smart contracts & captured in real-time by our client
 
 ## Overview
 * NFT metadata format:
@@ -63,4 +64,7 @@ npx hardhat help
 * Metamask wallet
 
 # How to Use
+1. Go to the [game site](https://nft-collector.malloryculbert.repl.co/)
+2. Connect your ETH wallet
+3. Mint your NFT!
 
