@@ -4,6 +4,11 @@ Built with @buildspace 🦄
 
 #Verified: https://rinkeby.etherscan.io/address/0x0B39f1408e5948754f02611f80E988B403288d05#code
 
+### How to Use
+1. Go to the [game site](https://nft-collector.malloryculbert.repl.co/)
+2. Connect your ETH wallet
+3. Mint your NFT!
+
 ## A vocabulary refresher
 * **Transaction**: an action that changes the blockchain, like deploying a smart contract or minting an NFT
 * **Deployment**:
@@ -65,8 +70,5 @@ npx hardhat help
 * Rinkeby testnet
 * Metamask wallet
 
-# How to Use
-1. Go to the [game site](https://nft-collector.malloryculbert.repl.co/)
-2. Connect your ETH wallet
-3. Mint your NFT!
+
 
