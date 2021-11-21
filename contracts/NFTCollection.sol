@@ -24,6 +24,8 @@ contract NFTCollection is ERC721URIStorage {
     string[] secondWords = ["Donkey", "Shirty", "Female", "Duck", "Pump", "Fries", "Ointment", "Parole", "Noodle", "Butter", "Me", "Chicken", "Elbow", "Cheese", "Fudge"];
     string[] thirdWords = ["Socks", "Matters", "Lumps", "Ham", "Fruit", "Church", "Frogspit", "Booty", "Love", "Mischief", "Queasy", "Chowder", "Chowder", "Patrol", "Squirrel"];
 
+    event NewEpicNFTMinted(address sender, uint256 tokenId);
+
     // constructor uses NFT token name & symbol - haha, 'femme' - to declare contract
     constructor() ERC721 ("EphemeraNFT", "PHEM") {
         console.log("NFT contract initialized.");
@@ -110,6 +112,9 @@ contract NFTCollection is ERC721URIStorage {
         console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
         // Increment the counter for the next NFT
         _tokenIds.increment();
+
+        // emit event that is captured on the frontend
+        emit NewEpicNFTMinted(msg.sender, newItemId);
     }
 }
 
