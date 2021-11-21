@@ -4,19 +4,6 @@ Built with @buildspace 🦄
 
 #Verified: https://rinkeby.etherscan.io/address/0x0B39f1408e5948754f02611f80E988B403288d05#code
 
-### How to Use
-1. Go to the [game site](https://nft-collector.malloryculbert.repl.co/)
-2. Connect your ETH wallet
-3. Mint your NFT!
-
-## A vocabulary refresher
-* **Transaction**: an action that changes the blockchain, like deploying a smart contract or minting an NFT
-* **Deployment**:
-* **On-Chain Data**: data stored on the contract itself, rather than via a third party
-* **SVG**: image built with code
-* **base64**: encoding format 
-* **Event**: in Solidity, messages that are emitted by smart contracts & captured in real-time by our client
-
 ## Overview
 * NFT metadata format:
   ```
@@ -26,7 +13,20 @@ Built with @buildspace 🦄
     "image":"data:image/json;base64,<base64_encoded_SVG_address>"
   }
   ```
-* 
+  
+### How to Use
+1. Go to the [game site](https://nft-collector.malloryculbert.repl.co/)
+2. Connect your ETH wallet
+3. Mint your NFT!
+
+### A vocabulary refresher
+* **Transaction**: an action that changes the blockchain, like deploying a smart contract or minting an NFT
+* **Deployment**:
+* **On-Chain Data**: data stored on the contract itself, rather than via a third party
+* **SVG**: image built with code
+* **base64**: encoding format 
+* **Event**: in Solidity, messages that are emitted by smart contracts & captured in real-time by our client
+
 
 ## Setup 🛠️
 1. Startup a sample HardHat project: `npx hardhat` 
