@@ -4,6 +4,8 @@ Built with @buildspace 🦄
 
 #Verified: https://rinkeby.etherscan.io/address/0x0B39f1408e5948754f02611f80E988B403288d05#code
 
+<img width="979" alt="Mint an NFT screenshot" src="https://user-images.githubusercontent.com/65197541/143958384-d42fcef0-d66e-48c6-bdfb-815e810342a3.png">
+
 ## Overview
 * NFT metadata format:
   ```
