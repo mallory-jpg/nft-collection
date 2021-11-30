@@ -5,19 +5,17 @@
 */
 
 const main = async () => {
+    //const [deployer] = await ethers.getSigners();
     // compiles contract & generates necessary artifacts under 'artifacts'
     const nftContractFactory = await hre.ethers.getContractFactory('NFTCollection');
-    /* 
-    * HardHat creates a local Ethereum network for this contract & destroys it after the run 
-    * which creates a new, fresh blockchain each time
-    */
+    // mine contract
     const nftContract = await nftContractFactory.deploy();
     // after contract is mined, deploy to local blockchain
     await nftContract.deployed();
     // after constructor runs -> fully deployed
     console.log("Contract deployed to:", nftContract.address);
 
-    // Call the function.
+    // Call the minting function.
     let txn = await nftContract.makeAnEpicNFT()
     // Wait for it to be mined.
     await txn.wait()
